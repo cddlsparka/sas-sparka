@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "nodemon -w server/server.js server/server.js",
+    "dev": "next dev",
     "build": "next build",
-    "start": "production node server.js",
+    "start": "next start",
     "lint": "next lint"
-    },
+  },
   "dependencies": {
     "next": "^14.1.1-canary.44",
     "react": "^18",
